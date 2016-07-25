@@ -1,0 +1,24 @@
+h1{
+	background-color: red;
+	margin-left:50pt;
+	margin-right: 100px;
+}
+body{
+	position:relative;
+}
+p{
+	background-color: black;
+	color: white;
+	font-size: 200%;
+	padding: 30px;
+}
+#cen{
+	text-align: center;
+	background-color: white;
+	color: black;
+	margin-bottom:200px;
+	margin-top:200px;
+}
+div{
+	width:400px;
+}
