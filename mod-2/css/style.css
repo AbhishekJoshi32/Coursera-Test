@@ -3,35 +3,33 @@
 }
 h1 {
   text-align: center;
+  padding-bottom: 30px;
+}
+p{
+  margin: 0px;
 }
 div{
   position: relative;
-}
-.a{
-  background-color:#d966ff;
-  color: white;
-}
-.b{
-  background-color: #ffb31a;
-  color: white;
-}
-.c{
-  background-color:red;
-  color: white;
+  padding-right: 20px;
+  padding-left: 20px;
+  margin:0px;
+  padding-bottom: 40px;
 }
 .title {
   position: absolute;
   right:20px;
   border: 1px solid black;
   width: 25%;
-  text-align:center; 
   padding-bottom:5px;
+  text-align:center;
   font-family: Arial, Helvetica, sans-serif;  color: white;
 }
 p.text{
   background-color: #d3d3d3; 
   text-align:center; 
+  border: 1px solid black;
   padding-top:30px;
+  padding-left:10px;
   padding-bottom:5px;
   margin-right: auto;
   margin-left: auto;
@@ -41,17 +39,28 @@ p.text{
 
 /* Simple Responsive Framework. */
 .row {
-  position: relative;
   width: 100%;
   padding-right:20px;
   padding-left: 20px; 
-
+}
+.a{
+  background-color:#d966ff;
+  color: white;
+}
+.b{
+  background-color: #ffb31a;
+  color: white;
+}
+.col-lg-4 .c{
+  background-color:red;
+  color: white;
 }
 /********** Large devices only **********/
 @media (min-width: 1200px) {
   .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12 {
     float: left;
-    padding: 20px;
+    padding-right :20px;
+    padding-left: 20px;
   }
   .col-lg-1 {
     width: 8.33%;
@@ -94,7 +103,8 @@ p.text{
 @media (min-width: 992px) and (max-width: 1199px) {
   .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12 {
     float: left;
-
+    padding-right: 20px;
+    padding-left: 20px;
   }
   .col-md-1 {
     width: 8.33%;
@@ -131,5 +141,8 @@ p.text{
   }
   .col-md-12 {
     width: 100%;
+  }
+  .c{
+    width:12.5%;
   }
 }
